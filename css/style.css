@@ -1,0 +1,91 @@
+/* GERAL */
+
+.button {
+    border: 0;
+    color: white;
+    background-color: #13a9ba;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Roboto Slab", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section[id]{
+    padding-top: 58px;
+}
+
+/* NAVEGAÇÃO */
+
+nav {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #333;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+    margin-bottom: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color:white;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-image: url("http://i.imgur.com/lxiJa87.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header p {
+    margin-bottom: 2em;
+}
