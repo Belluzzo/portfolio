@@ -1,4 +1,4 @@
-/* GERAL */
+/* GENERAL */
 
 .button {
     border: 0;
@@ -30,7 +30,7 @@ section[id]{
     padding-top: 58px;
 }
 
-/* NAVEGAÇÃO */
+/* NAV */
 
 nav {
     display:flex;
@@ -71,7 +71,7 @@ nav ul li a {
     color:white;
 }
 
-/* CABEÇALHO */
+/* HEADER */
 
 header {
     background-image: url("http://i.imgur.com/lxiJa87.jpg");
@@ -88,4 +88,104 @@ header {
 
 header p {
     margin-bottom: 2em;
+}
+
+/* ABOUT */ 
+
+.about {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    background-color: #13a9ba;
+    color: white;
+    padding-bottom: 58px;
+}
+
+.about p {
+    margin-bottom: 2em;
+    max-width: 1000px;
+}
+
+.about .button {
+    background-color: white;
+    color: #333;
+}
+
+/* SERVICES */
+
+.services {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.services .service h3 {
+    margin-top: 10px;
+}
+
+services .service img {
+    width: 100%;
+    max-width: 80px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact a {
+    display: block;
+    color: inherit;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+form input {
+    margin-top: 10px;
+}
+
+form textarea{
+    margin-top: 10px;
+}
+
+.icon-contact:last-child {
+    margin-top: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #13a9ba;
+    color: white;
+    margin-top: 58px;
 }
