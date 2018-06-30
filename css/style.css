@@ -189,3 +189,75 @@ footer {
     color: white;
     margin-top: 58px;
 }
+
+@media screen and (min-width: 768px) {
+    nav {
+        flex-flow: row;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    nav ul {
+        flex-flow: row;
+        width: 50%;
+    }
+
+    header {
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .about {
+        justify-content: center;
+    }
+
+    .services {
+        flex-flow: row wrap;   
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .services h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .services .service {
+        flex: 1 1 150px;
+        padding: 0 10px;
+    }
+
+    .portfolio {
+        flex-flow: row wrap;
+    }
+
+    .portfolio h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .portfolio img {
+        width: 33.33%;
+    }
+
+    .contact {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .contact h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .icon-contact:last-child {
+        margin-top: 0;
+    }
+}
